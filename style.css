@@ -1,0 +1,55 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.first-div,
+.second-div,
+.third-div,
+.fourth-div{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    height: 160px;
+}
+
+.first-div{
+    background-color: #1F2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.first-div ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    color: white;
+}
+
+.left, .right{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.kiemeles-nav{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.foot{
+    height: 90px;
+    border:1px solid red;
+}
